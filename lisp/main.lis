@@ -1,10 +1,0 @@
-Z80-Assembler	Release 1.9	Sun Nov  6 15:15:32 2022	Page 1
-Source file: main.asm
-Title:       
-
-LOC   OBJECT CODE   LINE   STMT SOURCE CODE
-                       1      1     org 120h
-                       2      2 
-                       3      3 start:
-0120  3e 10            4      4     ld a,10h
-0122  c7               5      5     rst 0
