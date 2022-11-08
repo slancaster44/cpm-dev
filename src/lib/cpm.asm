@@ -1,0 +1,50 @@
+
+;;System Call Constants
+;;In general:
+;;  A: Function #
+;; DE: Address argument
+;;  A: Single Byte Return value
+;; HL: Double byte return values
+SYS_RESET equ 0
+CONS_IN equ 1
+CONS_OUT equ 2
+READER_IN equ 3
+PUNCH_OUT equ 4
+LIST_OUT equ 5
+DIR_CONS_IO equ 6
+GET_IO_BYTE equ 7
+SET_IO_BYTE equ 8
+PRINT_STR equ 9
+READ_CONS_BUF equ 10
+GET_CONS_STAT equ 11
+RET_VER_NUM equ 12
+RESET_DISK_SYS equ 13
+SEL_DISK equ 14
+OPEN_FILE equ 15
+CLOSE_FILE equ 16
+SEARCH_FIRST equ 17
+SEARCH_NEXT equ 18
+DEL_FILE equ 19
+READ_SEQ equ 20
+WRITE_SEQ equ 21
+MK_FILE equ 22
+REN_FILE equ 23
+RET_LOGIN_VEC equ 24
+RET_CUR_DSK equ 35
+SET_DMA_ADDR equ 26
+GET_ADDR_ALLOC equ 27
+SET_WRITE_PROTEC equ 28
+GET_RO_VEC equ 29
+SET_FILE_ATTRS equ 30
+GET_ADDR_DSK_PARAMS equ 31
+MANIP_USER_CODE equ 32
+READ_RANDOM equ 33
+WRITE_RAN equ 34
+GET_FILE_SIZE equ 35
+SET_RAND_RECORD equ 36
+RESET_DRIVE equ 37
+WRITE_RAND_ZERO equ 40
+
+BDOS equ 0005h
+
+WBOOT equ 0000h
